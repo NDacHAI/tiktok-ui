@@ -12,6 +12,8 @@
     border: 1px solid transparent;
     user-select: none;
 
+    font-family: 'IBM Plex Sans', 'roboto', sans-serif;
+
     + .wrapper {
         margin-left: 8px;
     }
@@ -25,6 +27,12 @@
 .icon + .title,
 .title + .icon {
     margin-left: 8px;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
 }
 
 // Button type
